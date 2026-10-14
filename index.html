@@ -65,13 +65,29 @@
    <input type="text" id="name" name"name"><br><br>
 
    <label for="email">Email</label>
-   <input type="email" id="email" name="email">
+   <input type="email" id="email" name="email" required>
   <p>Which language do you prefer></p>
    <input type="radio" id="html" name="favorite" value="HTML">
    <label for="hmtl">HTML</label>
    <input type="radio" id="css" name="favorite" value"CSS">
    <label for="css">CSS</label>
-
+ 
+   <p>My Hobbies</p>
+   <input type="checkbox" id="soccer" name="hobby" value="soccer">
+   <label for="soccer">Soccer</label>
+   <input type="checkbox" id="programming" name="hobby" value="programming">
+   <label for="programming">Programming</label>
+   
+  <label for="lang">Preferred programming language:</label>
+      <select id="lang" name="lang">
+          <option value="html">HTML</option>
+          <option value="js">JavaScript</option>
+          <option value="java">Java</option>
+          <option value="python">Python</option>
+      </select>
+  <label for="message">Your Message:</label>
+   <textarea name="message" rows="4" cols="30" placeholder="Write your message here..."></textarea>
+   
    <input type="submit" value="Submit">
    <input type="reset" value"Reset">
  </form>
