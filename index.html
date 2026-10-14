@@ -6,15 +6,22 @@
     <title>My Personal Website</title>
   </head>
   <body>
+    <header>
+      <h1>My Personal Website</h1>
+    </header>
+    <main>
     <a href="#goals"> Go to my goals</a>
     <h1>About me</h1>
     <p>I'm a <strong>Software Engineering</strong> student at Concordia<br> University</p>
+      <section>
     <h2>My Hobbies</h2>
     <ul>
       <li>Soccer</li>
       <li>Going to the gym</li>
       <li>Learning programming</li>
     </ul>
+      </section>
+      <section>
     <h2>My Weekly Schedule</h2>
 <table style ="border:1px solid black;">
    <tr>
@@ -41,11 +48,13 @@
 <td>2</td>    
   </tr>
 </table>
+      </section>
 
-
-    
+    <section>
     <h2 id= "goals"> My Goals</h2>
 <p>My goal is to become a great <em>software engineer</em>.</p>
+    </section>
+      <section>
 <h2>What I'm Learning</h2>
     <ol start="5">
       <li>HTML</li>
@@ -58,7 +67,8 @@
        <blockquote><em>Learning never stops.</em></blockquote>
 <img src="photo.jpg" alt="My favourite picture" width= "250">
   <a href = "https://www.concordia.ca">Visit concordia</a>
-
+      </section>
+      <section>
 <h2>Contact Me</h2>
  <form action="#" method="get">
    <label for="name">Name</label>
@@ -71,7 +81,7 @@
    <label for="hmtl">HTML</label>
    <input type="radio" id="css" name="favorite" value"CSS">
    <label for="css">CSS</label>
- 
+   
    <p>My Hobbies</p>
    <input type="checkbox" id="soccer" name="hobby" value="soccer">
    <label for="soccer">Soccer</label>
@@ -89,10 +99,15 @@
 <br><br>
    
   <label for="message">Your Message:</label>
-   <textarea name="message" rows="4" cols="30" placeholder="Write your message here..."></textarea>
+   <textarea id="message" name="message" rows="4" cols="30" placeholder="Write your message here..."></textarea>
    <br><br>
    <input type="submit" value="Submit">
    <input type="reset" value"Reset">
  </form>
+       </section>
+    </main>
+    <footer>
+      <p>Copyright 2026 - My Personal Website</p>
+    </footer>
   </body>
 </html>
