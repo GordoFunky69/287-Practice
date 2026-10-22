@@ -16,3 +16,11 @@ p.learning-note{
 section > h2 {
   color: darkorange;
 }
+
+h3{
+  color: darkgreen;
+}
+
+.intro{
+  font-size: 22px;
+}
