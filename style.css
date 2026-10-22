@@ -9,3 +9,6 @@ p{
   color: purple;
   font-size: 30px;
 }
+p.learning-note{
+  color: blue;
+}
