@@ -17,10 +17,34 @@ section > h2 {
   color: darkorange;
 }
 
-h3{
+h3{ /*Make every <h3> heading dark green.*/
   color: darkgreen;
 }
 
-.intro{
+.intro{ /* Make every element with class intro have a font size of 22px.*/
   font-size: 22px;
+}
+
+#css-practice{ /*Give the entire CSS Practice Zone a light gray background (#f0f0f0).*/
+  background: #f0f0f0;
+}
+
+.practice-box p{ /*Make ALL paragraphs anywhere inside .practice-box have orange text.*/
+color: orange;
+}
+
+.practice-box > p { /*Give only the paragraphs directly inside .practice-box a font size of 20px. The paragraph inside <article> should not be affected.*/
+  font-size:20px;
+}
+
+.practice-box h3 + p{ /*Make only the paragraph immediately after the <h3> inside .practice-box bold.*/
+  font-weight: bold;
+}
+
+practice-box ~p{/*Give ALL paragraphs that come after the <h3> inside .practice-box an underline, but only if they share its parent*/
+  text-decoration: underline;
+}
+
+.practice-box p.highlight{/*Make the paragraph with class highlight purple, overriding the orange descendant rule.*/
+  color: purple;
 }
