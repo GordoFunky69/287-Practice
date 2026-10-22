@@ -12,3 +12,7 @@ p{
 p.learning-note{
   color: blue;
 }
+
+section > h2 {
+  color: darkorange;
+}
