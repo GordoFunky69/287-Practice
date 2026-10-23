@@ -48,3 +48,22 @@ practice-box ~p{/*Give ALL paragraphs that come after the <h3> inside .practice-
 .practice-box p.highlight{/*Make the paragraph with class highlight purple, overriding the orange descendant rule.*/
   color: purple;
 }
+
+/*Style for navigation menu*/
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{   /* esto es para que se vean las opciones una al lado de la otra*/
+  display: inline-block;
+  margin-right: 16px;
+}
+
+nav a { /*esto es para quitarle el radio button o los circulitos a las opciones. Ponemos "a" porque estamos usando el a href*/
+  text-decoration: none;
+}
+
+
+
