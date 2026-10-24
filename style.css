@@ -120,3 +120,27 @@ h1{
 4px	Adds blur to soften the shadow
 gray	Sets the shadow color*/
 
+#about{ /*Styling About section*/
+  border: 2px #203653;
+  padding: 20px;
+  margin: 25px 15px;
+}
+
+#hobbies{ /*Styling Hobbies section*/
+  border-style: dashed;
+  boeder-width: 3px;
+  border-color: #203653;
+  padding: 15px 30px;
+  margin: 20px 20 px;
+  background-color: #eeeeee;
+}
+
+/* Put a background image*/
+header(
+background-image: url("SouthPark.png");
+background-repeat: no-repeat;
+background-position: top right;
+padding: 25px 25px;
+}
+  
+
