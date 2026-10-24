@@ -65,5 +65,9 @@ nav a { /*esto es para quitarle el radio button o los circulitos a las opciones.
   text-decoration: none;
 }
 
+nav{ /*ponemos un color en el fondo en nuestro menu de navegacion. HOWEVER, links will be difficult to read*/
+  background-colo: #203653;
+}
+
 
 
