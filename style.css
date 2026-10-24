@@ -63,10 +63,47 @@ nav li{   /* esto es para que se vean las opciones una al lado de la otra*/
 
 nav a { /*esto es para quitarle el radio button o los circulitos a las opciones. Ponemos "a" porque estamos usando el a href*/
   text-decoration: none;
+  color: white; /*ponerlo en blanco para que se pueda ver en el fondo azul*/
 }
 
 nav{ /*ponemos un color en el fondo en nuestro menu de navegacion. HOWEVER, links will be difficult to read*/
   background-color: #203653;
+  padding:15px; /* darle un cierto tipo de margen para que las letras esten mas separadas del borde*/
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+/*add cool borders to my weekly schedule table */
+
+table, td, th{
+  border: 1px solid #203653;
+}
+/* table: the entire table. td: all table data cells. th: table headings*/
+
+
+
+/* lets make the tables lines stuck together (no space)*/
+
+table{
+  border-collapse: collapse;
+}
+
+th,td{
+  padding: 10 px 15px; /*10 for top and bottom. 15 for left and right*/
+}
+
+/* Style table headers */
+
+th{
+  background-color: #203653;
+}
+
+/*lets put zebra printing in the table */
+
+tr:nth-child(even) td{ /*tr: /*tr:nth-child(even) td means select the regular data cells inside every even-numbered table row.*/
+  background-color: #f2f2f2;/*tr: table rows*/ /*nth-hild(even) selects rows that are even-numbered positions among their sibilings*/
 }
 
 
