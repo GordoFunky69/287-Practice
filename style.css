@@ -104,7 +104,19 @@ th{
 
 tr:nth-child(even) td{ /*tr: /*tr:nth-child(even) td means select the regular data cells inside every even-numbered table row.*/
   background-color: #f2f2f2;/*tr: table rows*/ /*nth-hild(even) selects rows that are even-numbered positions among their sibilings*/
+} /* we put td to make emphasis to select that data cell background*/
+
+img.centered {
+  display: block; /*Makes the image a block-level element*/
+  margin: 0 auto; /*Centers the image horizontally when there's extra space*/
+  max-width: 50%; /*Limits the image to half its container's width*/
 }
-
-
+  
+h1{
+  text-shadow: 2px 2px 4px gray;
+}
+/*Moves the shadow 2px to the right
+2px	Moves the shadow 2px down
+4px	Adds blur to soften the shadow
+gray	Sets the shadow color*/
 
