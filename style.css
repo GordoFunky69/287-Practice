@@ -143,4 +143,22 @@ background-position: top right;
 padding: 25px 25px;
 }
   
+.announcement{
+  border : 2px solidgreen;
+  padding: 15px 15px;
+}
 
+.important-date{
+  background-color: yellow;
+  font-weight: bold;
+}
+
+p{
+  color: red;
+}
+.announcement p {
+  color: blue;
+}
+#about p {
+  color: green;
+}
