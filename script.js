@@ -38,3 +38,14 @@ console.log("bird" + 1 + 2);
 console.log(1 + (2 + "birds"));
 
 console.log('$' + 3 + 4);
+
+// Slides 23-25 - Explicit Conversion
+
+const numberText = "25";
+
+console.log(numberText + 5); //255  
+console.log(Number(numberText) + 5); //30
+
+console.log(Number("6 apples")); //NaN
+console.log(parseInt("6 apples")); //6
+console.log(parseFloat("7.25")); //7.25
