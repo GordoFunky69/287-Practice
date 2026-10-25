@@ -159,3 +159,25 @@ console.log(objectA === objectB);
 // Slide 17: Primitive vs object
 console.log(stringA == objectA);
 console.log(stringA === objectA);
+
+
+// JavaScript (2) - Slides 18-20
+
+// Slide 18: Logical AND and OR
+console.log(4 && 5);
+console.log(false && 7);
+console.log(0 || "none");
+
+// Slide 19: NOT and Double NOT
+console.log(!"Hello");
+console.log(!!"Hello");
+console.log(!!0);
+
+// Slide 20: Bitwise operators
+console.log(5 & 1);
+console.log(5 | 1);
+console.log(5 ^ 1);
+console.log(5 << 1);
+console.log(5 >> 1);
+console.log(~5);
+
