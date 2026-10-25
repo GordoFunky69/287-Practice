@@ -136,3 +136,26 @@ console.log("3" === 3);
 console.log(0 == "");
 console.log(null == undefined);
 console.log(null === undefined);
+
+// JavaScript (2) - Slides 14-17
+
+// Slide 14: Primitive strings
+const stringA = "123";
+const stringB = "123";
+
+console.log(stringA == stringB);
+console.log(stringA === stringB);
+
+// Slide 15: Strict inequality
+console.log(3 !== "3");
+
+// Slide 16: Two different objects
+const objectA = new String("123");
+const objectB = new String("123");
+
+console.log(objectA == objectB);
+console.log(objectA === objectB);
+
+// Slide 17: Primitive vs object
+console.log(stringA == objectA);
+console.log(stringA === objectA);
