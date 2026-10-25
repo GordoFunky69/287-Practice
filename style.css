@@ -57,8 +57,10 @@ nav ul{
 }
 
 nav li{   /* esto es para que se vean las opciones una al lado de la otra*/
-  display: inline-block;
-  margin-right: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
 }
 
 nav a { /*esto es para quitarle el radio button o los circulitos a las opciones. Ponemos "a" porque estamos usando el a href*/
@@ -162,3 +164,17 @@ p{
 #about p {
   color: green;
 }
+
+/*Add media query so the layout works on phones too*/
+@media (max-width: 600px){
+  nav ul{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+
+
+
