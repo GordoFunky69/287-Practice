@@ -87,3 +87,28 @@ console.log(Boolean([]));
 if ("false") {
     console.log("This condition is truthy!");
 }
+
+// JavaScript (2) - Slides 8-10
+
+// Slide 8: Date Object
+const today = new Date();
+
+console.log(today.getFullYear());
+console.log(today.getMonth());
+console.log(today.getDate());
+console.log(today.getDay());
+
+// Slide 9: Console Output
+console.log("JavaScript is running!");
+
+// Slide 10: Dialog Boxes
+// Uncomment ONE line at a time to test.
+
+// alert("Welcome to my website!");
+
+// const userName = prompt("What is your name?");
+// console.log(userName);
+
+// const answer = confirm("Do you like JavaScript?");
+// console.log(answer);
+
