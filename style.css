@@ -51,30 +51,30 @@ color: orange;
 }
 
 /*Style for navigation menu*/
-nav ul{
+header nav ul{
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-nav ul{   /* esto es para que se vean las opciones una al lado de la otra*/
+header nav ul{   /* esto es para que se vean las opciones una al lado de la otra*/
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 20px;
 }
 
-nav a { /*esto es para quitarle el radio button o los circulitos a las opciones. Ponemos "a" porque estamos usando el a href*/
+ header nav a { /*esto es para quitarle el radio button o los circulitos a las opciones. Ponemos "a" porque estamos usando el a href*/
   text-decoration: none;
   color: white; /*ponerlo en blanco para que se pueda ver en el fondo azul*/
 }
 
-nav{ /*ponemos un color en el fondo en nuestro menu de navegacion. HOWEVER, links will be difficult to read*/
+ header nav{ /*ponemos un color en el fondo en nuestro menu de navegacion. HOWEVER, links will be difficult to read*/
   background-color: #203653;
   padding:15px; /* darle un cierto tipo de margen para que las letras esten mas separadas del borde*/
 }
 
-nav a:hover {
+ header nav a:hover {
   color: yellow;
 }
 
