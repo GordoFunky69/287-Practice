@@ -41,7 +41,7 @@ color: orange;
   font-weight: bold;
 }
 
-practice-box ~p{/*Give ALL paragraphs that come after the <h3> inside .practice-box an underline, but only if they share its parent*/
+.practice-box ~ p{/*Give ALL paragraphs that come after the <h3> inside .practice-box an underline, but only if they share its parent*/
   text-decoration: underline;
 }
 
@@ -91,7 +91,7 @@ table{
 }
 
 th,td{
-  padding: 10 px 15px; /*10 for top and bottom. 15 for left and right*/
+  padding: 10px 15px; /*10 for top and bottom. 15 for left and right*/
 }
 
 /* Style table headers */
@@ -121,22 +121,22 @@ h1{
 gray	Sets the shadow color*/
 
 #about{ /*Styling About section*/
-  border: 2px #203653;
+  border: 2px  solid #203653;
   padding: 20px;
   margin: 25px 15px;
 }
 
 #hobbies{ /*Styling Hobbies section*/
   border-style: dashed;
-  boeder-width: 3px;
+  border-width: 3px;
   border-color: #203653;
   padding: 15px 30px;
-  margin: 20px 20 px;
+  margin: 20px 20px;
   background-color: #eeeeee;
 }
 
 /* Put a background image*/
-header(
+header{
 background-image: url("SouthPark.png");
 background-repeat: no-repeat;
 background-position: top right;
@@ -144,7 +144,7 @@ padding: 25px 25px;
 }
   
 .announcement{
-  border : 2px solidgreen;
+  border : 2px solid green;
   padding: 15px 15px;
 }
 
