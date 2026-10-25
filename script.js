@@ -72,3 +72,18 @@ console.log(courseTitle.split(" "));
 console.log(courseTitle.replace("Web", "JS"));
 
 console.log(courseTitle);
+
+
+
+// JavaScript (2) - Slides 6-7
+
+console.log(Boolean(0));
+console.log(Boolean("0"));
+console.log(Boolean(""));
+console.log(Boolean("false"));
+console.log(Boolean(null));
+console.log(Boolean([]));
+
+if ("false") {
+    console.log("This condition is truthy!");
+}
