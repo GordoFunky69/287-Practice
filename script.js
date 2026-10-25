@@ -29,3 +29,12 @@ points += 5;
 points *= 2;
 
 console.log(`Your final score is ${points}`);
+
+console.log(5 + "3");
+console.log(5 - "3");
+
+console.log(1 + 2 + "birds");
+console.log("bird" + 1 + 2);
+console.log(1 + (2 + "birds"));
+
+console.log('$' + 3 + 4);
