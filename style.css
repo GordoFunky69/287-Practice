@@ -181,6 +181,9 @@ p{
   gap: 20px;
 }
 
+#contact h2{
+  color: var(--bs-primary);
+}
 
 
 
