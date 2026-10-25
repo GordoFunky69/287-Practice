@@ -112,3 +112,27 @@ console.log("JavaScript is running!");
 // const answer = confirm("Do you like JavaScript?");
 // console.log(answer);
 
+
+
+
+// JavaScript (2) - Slides 11-13
+
+// Slide 11 - Conditions
+if (1) {
+    console.log("Truthy!");
+} else {
+    console.log("Falsy!");
+}
+
+// Slide 12 - Ternary Operator
+const studentAge = 20;
+const studentStatus = studentAge >= 18 ? "adult" : "minor";
+
+console.log(studentStatus);
+
+// Slide 13 - Equality
+console.log("3" == 3);
+console.log("3" === 3);
+console.log(0 == "");
+console.log(null == undefined);
+console.log(null === undefined);
