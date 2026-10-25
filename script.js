@@ -49,3 +49,26 @@ console.log(Number(numberText) + 5); //30
 console.log(Number("6 apples")); //NaN
 console.log(parseInt("6 apples")); //6
 console.log(parseFloat("7.25")); //7.25
+// JavaScript (2) - Slide 3
+
+const firstWord = "SOEN";
+const secondWord = "SOEN";
+
+console.log(firstWord === secondWord); //True
+console.log(firstWord.length); //3
+console.log(typeof firstWord);//String
+
+
+// JavaScript (2) - Slide 5: String Methods
+
+const courseTitle = "SOEN 287 Web";
+
+console.log(courseTitle.charAt(0));
+console.log(courseTitle.indexOf("287"));
+console.log(courseTitle.slice(5, 8));
+console.log(courseTitle.substring(5, 8));
+console.log(courseTitle.toUpperCase());
+console.log(courseTitle.split(" "));
+console.log(courseTitle.replace("Web", "JS"));
+
+console.log(courseTitle);
