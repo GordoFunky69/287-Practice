@@ -414,3 +414,28 @@ function makeMultiplier(n) {
 
 const timesFour = makeMultiplier(4);
 console.log(timesFour(5));
+
+
+// JavaScript (4) - Slides 8-10
+
+// Slide 8 - Anonymous function
+const multiply = function(a, b) {
+    return a * b;
+};
+
+console.log("Multiply:", multiply(3, 4));
+
+// Slide 9 - Arrow function with no parameters
+const sayWelcome = () => {
+    return "Welcome to SOEN 287!";
+};
+
+console.log(sayWelcome());
+
+// Slide 10 - Arrow function with one parameter
+const triple = number => {
+    return number * 3;
+};
+
+console.log("Triple:", triple(5));
+
