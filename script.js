@@ -322,3 +322,36 @@ function practiceScope3() {
 }
 
 practiceScope3();
+
+
+// JavaScript (3) - Slides 11-13
+
+// Slide 11: Local variable hoisting
+function testHoisting() {
+    console.log("Before:", course);
+    var course = "SOEN 387";
+    console.log("After:", course);
+}
+
+testHoisting();
+
+// Slide 12: Undeclared variable
+function testUndeclared() {
+    // Uncomment to test:
+    // console.log(missingCourse);
+    // missingCourse = "SOEN 287";
+}
+
+// Slide 13: Scope chain
+function testScopeChain() {
+    var course = "SOEN 287";
+
+    function show() {
+        console.log("Inside:", course);
+    }
+
+    show();
+}
+
+testScopeChain();
+
