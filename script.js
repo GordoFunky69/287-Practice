@@ -244,3 +244,24 @@ do {
     console.log("Do:", doCount);
     doCount++;
 } while (doCount < 5);
+
+
+// JavaScript (2) - Slides 27-28
+
+// Slide 27 - for...in
+const studentInfo = {
+    name: "Alex",
+    program: "Software Engineering",
+    university: "Concordia"
+};
+
+for (const key in studentInfo) {
+    console.log(key, ":", studentInfo[key]);
+}
+
+// Slide 28 - for...of
+const programmingLanguages = ["Java", "JavaScript", "C++"];
+
+for (const language of programmingLanguages) {
+    console.log(language);
+}
