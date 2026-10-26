@@ -287,3 +287,38 @@ function scopePractice() {
 }
 
 scopePractice();
+
+
+
+
+// JavaScript (3) - Slides 8-10
+
+function practiceScope3() {
+
+    // Slide 8 - var
+    var city1 = "global";
+
+    {
+        var city1 = "in scope";
+        console.log("var inside:", city1);
+    }
+
+    console.log("var outside:", city1);
+
+    // Slide 9 - let
+    let city2 = "global";
+
+    {
+        let city2 = "in scope";
+        console.log("let inside:", city2);
+    }
+
+    console.log("let outside:", city2);
+
+    // Slide 10 - Hoisting
+    console.log("Hoisting:", score);
+    var score = 100;
+    console.log("After declaration:", score);
+}
+
+practiceScope3();
