@@ -220,3 +220,27 @@ for (const language of languages) {
     console.log(language);
 }
 
+
+
+// JavaScript (2) - Slides 24-26
+
+// Slide 24 - for loop
+for (let i = 1; i <= 5; i++) {
+    console.log("For:", i);
+}
+
+// Slide 25 - while loop
+let whileCount = 1;
+
+while (whileCount <= 5) {
+    console.log("While:", whileCount);
+    whileCount++;
+}
+
+// Slide 26 - do...while loop
+let doCount = 10;
+
+do {
+    console.log("Do:", doCount);
+    doCount++;
+} while (doCount < 5);
