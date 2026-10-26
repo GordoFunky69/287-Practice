@@ -377,3 +377,40 @@ function practiceFinalScope() {
 }
 
 practiceFinalScope();
+
+
+// JavaScript (4) - Slides 5-7
+
+// Slide 5 - Default and rest parameters
+function welcome(name, course = "SOEN 287") {
+    return `${name} studies ${course}`;
+}
+
+console.log(welcome("Alex"));
+
+function countStudents(...students) {
+    return students.length;
+}
+
+console.log(countStudents("Alex", "Mei", "Ali"));
+
+// Slide 6 - Function as a parameter
+function sayHi(name) {
+    return `Hi, ${name}!`;
+}
+
+function runGreeting(fn, name) {
+    console.log(fn(name));
+}
+
+runGreeting(sayHi, "Alex");
+
+// Slide 7 - Closure
+function makeMultiplier(n) {
+    return function(x) {
+        return x * n;
+    };
+}
+
+const timesFour = makeMultiplier(4);
+console.log(timesFour(5));
