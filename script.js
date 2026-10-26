@@ -355,3 +355,25 @@ function testScopeChain() {
 
 testScopeChain();
 
+
+// JavaScript (3) - Slides 14-17
+
+function practiceFinalScope() {
+    "use strict";
+
+    const university = "Concordia";
+    let points = 10;
+
+    points += 5;
+
+    console.log(university);
+    console.log(points);
+
+    function showMessage() {
+        console.log("Studying at " + university);
+    }
+
+    showMessage();
+}
+
+practiceFinalScope();
