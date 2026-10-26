@@ -265,3 +265,25 @@ const programmingLanguages = ["Java", "JavaScript", "C++"];
 for (const language of programmingLanguages) {
     console.log(language);
 }
+
+
+console.log(numbers);
+
+// Slide 6 - Block scope
+{
+    let insideBlock = "Hello!";
+    console.log(insideBlock);
+}
+
+// Slide 7 - var and function scope
+function scopePractice() {
+    var message = "Function";
+
+    if (true) {
+        var message = "Block?";
+    }
+
+    console.log(message);
+}
+
+scopePractice();
