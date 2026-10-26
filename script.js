@@ -181,3 +181,42 @@ console.log(5 << 1);
 console.log(5 >> 1);
 console.log(~5);
 
+
+
+// JavaScript (2) - Slides 21-23
+
+// Slide 21 - Switch
+const selectedFruit = "apple";
+
+switch (selectedFruit) {
+    case "banana":
+        console.log("Banana selected");
+        break;
+
+    case "apple":
+        console.log("Apple selected");
+        break;
+
+    default:
+        console.log("Unknown fruit");
+}
+
+// Slide 22 - Fall-through
+const selectedColor = "blue";
+
+switch (selectedColor) {
+    case "blue":
+        console.log("Blue");
+    case "red":
+        console.log("Red");
+    default:
+        console.log("Other");
+}
+
+// Slide 23 - Loops
+const languages = ["HTML", "CSS", "JavaScript"];
+
+for (const language of languages) {
+    console.log(language);
+}
+
